@@ -1,0 +1,18 @@
+# Avoid data folders to upload
+**/data/
+
+# Avoid environment files
+env-key.json
+
+# Avoid pipenv file
+Pipfile.lock
+
+# PYTHON FILES
+*.pyc
+__pycache__/
+
+# MLflow local database (SQLite)
+mlflow.db
+
+# MLflow local tracking directory (Artifacts, params, metrics)
+mlruns/
