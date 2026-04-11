@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Check if a filename was provided
 if [ -z "$1" ]; then
